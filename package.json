@@ -15,7 +15,9 @@
     "chai-http": "^5.1.1",
     "express": "^4.21.2",
     "mocha": "^11.1.0",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
     "supertest": "^7.1.0"
   }
 }
