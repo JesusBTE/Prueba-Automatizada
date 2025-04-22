@@ -23,7 +23,7 @@ describe("POST /apiV1/usuarios/:id/addLogros", function () {
   });
 
   // Agregar logros a un jugador
-  it("✅ Debe agregar logros al jugador correctamente", async () => {
+  it("Debe agregar logros al jugador correctamente", async () => {
     const logros = [
       { 
         "nombre": "El elixir de la Vida",
@@ -53,7 +53,7 @@ describe("POST /apiV1/usuarios/:id/addLogros", function () {
     expect(res.body.logros[0]).to.have.property("descripcion", "Toma tu primer poción de curación.");
   });
 
-  it("❌ Debe devolver 400 si no se envía un array de logros", async () => {
+  it("Debe devolver 400 si no se envía un array de logros", async () => {
     const res = await request(baseUrl)
       .post(`/apiV1/usuarios/${userId}/addLogros`)
       .set("Authorization", `Bearer ${token}`)

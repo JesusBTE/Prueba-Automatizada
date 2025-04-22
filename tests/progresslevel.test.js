@@ -22,7 +22,7 @@ describe("POST /apiV1/usuarios/:id/subirNivel", function () {
     userId = loginRes.body.userId;
   });
 
-  it("✅ Debe subir de nivel correctamente si tiene suficiente experiencia", async () => {
+  it("Debe subir de nivel correctamente si tiene suficiente experiencia", async () => {
     const res = await request(baseUrl)
       .post(`/apiV1/usuarios/${userId}/subirNivel`)
       .set("Authorization", `Bearer ${token}`);
@@ -37,7 +37,7 @@ describe("POST /apiV1/usuarios/:id/subirNivel", function () {
     }
   });
 
-  it("❌ Debe devolver 422 si el jugador no tiene experiencia suficiente", async () => {
+  it("Debe devolver 422 si el jugador no tiene experiencia suficiente", async () => {
     const res = await request(baseUrl)
       .post(`/apiV1/usuarios/${userId}/subirNivel`)
       .set("Authorization", `Bearer ${token}`);

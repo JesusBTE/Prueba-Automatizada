@@ -21,7 +21,7 @@ describe("GET /apiV1/usuarios/global/ranking", function () {
   });
 
   // Obtener el ranking global
-  it("✅ Debe obtener el ranking global correctamente", async () => {
+  it("Debe obtener el ranking global correctamente", async () => {
     const res = await request(baseUrl)
       .get("/apiV1/usuarios/global/ranking")
       .set("Authorization", `Bearer ${token}`); // Incluye el token en los headers
