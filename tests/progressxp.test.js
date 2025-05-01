@@ -4,7 +4,7 @@ const { expect } = require("chai");
 describe("PUT /apiV1/usuarios/:id/progreso", function () {
   this.timeout(10000); // Tiempo extra por si el servidor tarda
 
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
   let token;
   let userId;
 

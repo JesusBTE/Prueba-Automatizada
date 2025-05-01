@@ -10,7 +10,7 @@ describe("GET /apiV1/usuarios/:idz/progreso", function () {
   this.timeout(10000);
 
   // URL base de la API
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // Variables para almacenar el token y el ID del usuario autenticado
   let token;

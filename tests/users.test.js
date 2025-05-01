@@ -9,7 +9,7 @@ describe("Debe obtener todos los usuarios", function () {
   this.timeout(10000);
 
   // URL base de la API desplegada en Render
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // Variable que almacenará el token de autenticación
   let token;
@@ -64,7 +64,7 @@ describe("Debe obtener todos los usuarios", function () {
       .get(`/apiV1/usuarios`)
       .set("Accept", "application/json");
 
-    // Verifica que el estado sea 403 
+    // Verifica que el estado sea 403
     expect(res.status).to.equal(403);
 
     // Verifica que el mensaje de error sea el esperado

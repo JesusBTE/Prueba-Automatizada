@@ -9,7 +9,7 @@ describe("Debe Actualizar parcialmente la información del usuario", function ()
   this.timeout(10000);
 
   // URL base de la API en Render
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // Variable donde se guardará el token
   let token;

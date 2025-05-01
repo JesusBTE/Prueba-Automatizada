@@ -9,7 +9,7 @@ describe("Debe eliminar al usuario", function () {
   this.timeout(10000);
 
   // URL base de la API desplegada
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // ID del usuario que se va a eliminar
   const userId = "89sKndv3GaiCjiet3636";

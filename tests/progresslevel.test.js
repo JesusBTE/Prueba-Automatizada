@@ -4,7 +4,7 @@ const { expect } = require("chai");
 describe("POST /apiV1/usuarios/:id/subirNivel", function () {
   this.timeout(10000); // Por si el servidor tarda en responder
 
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
   let token;
   let userId;
 

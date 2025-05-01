@@ -4,7 +4,7 @@ const { expect } = require("chai");
 describe("GET /apiV1/usuarios/global/ranking", function () {
   this.timeout(10000); // Tiempo extra por si el servidor tarda
 
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
   let token;
 
   // Se ejecuta antes de cada prueba para hacer login y obtener el token
