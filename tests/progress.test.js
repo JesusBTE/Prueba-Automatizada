@@ -5,7 +5,7 @@ const request = require("supertest");
 const { expect } = require("chai");
 
 // Describe el grupo de pruebas para la ruta de progreso del usuario
-describe("GET /apiV1/usuarios/:id/progreso", function () {
+describe("GET /apiV1/usuarios/:idz/progreso", function () {
   // Aumenta el tiempo máximo permitido por prueba (en caso de demoras del servidor)
   this.timeout(10000);
 

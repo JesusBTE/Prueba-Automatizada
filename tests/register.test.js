@@ -9,13 +9,13 @@ describe("API de Usuarios y Progresos en Render", function () {
   this.timeout(10000);
 
   // URL base de la API desplegada en Render
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // Verifica que un usuario pueda registrarse correctamente
   it("Debe registrar el usuario", async () => {
     const nuevoUsuario = {
       nombre: "Juan Pérez",
-      email: "juanpepes@gmail.com",
+      email: "juanpepe@gmail.com",
       password: "123456",
       confirmPassword: "123456",
       edad: 20,

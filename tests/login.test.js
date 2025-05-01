@@ -9,13 +9,13 @@ describe("API de Login de Usuarios", function () {
   this.timeout(10000);
 
   // Define la URL base de la API desplegada en Render
-  const baseUrl = "https://desarrollar-api-documentada.onrender.com";
+  const baseUrl = "https://api-players-4mub.onrender.com";
 
   // Verifica que un usuario pueda iniciar sesión correctamente
   it("Debe iniciar sesión exitosamente", async () => {
     // Datos de inicio de sesión válidos 
     const datosLogin = {
-      email: "juan@gmail.com",
+      email: "juanpepe@gmail.com",
       password: "123456",
     };
 
